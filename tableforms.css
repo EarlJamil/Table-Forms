@@ -1,0 +1,103 @@
+body {
+  font-family: 'Roboto';
+}
+
+.invoicetable {
+  width: 40%; 
+  background-color: #303c6b; 
+  margin: auto; 
+  padding: 1px 10px 20px 10px; 
+  margin-bottom: 30px; 
+}
+
+.tableheader {
+  background-color: #b4dfe5;
+  height: 70px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table, .maintable tr, .maintable th, .maintable td {
+  border: 2px solid #303c6b;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+.rightalign {
+  text-align: right;
+}
+
+.leftalign {
+  text-align: left;
+}
+
+.rightalign2 {
+  text-align: center;
+}
+
+.leftalign2 {
+  text-align: center;
+}
+
+.tableform-header{
+  text-align: center;
+  background-color: #b4dfe5; 
+  margin: auto; 
+  padding: 1px 10px 20px 10px; 
+  margin-bottom: 30px; 
+}
+
+.tableform {
+  border: 5px solid #303c6c; 
+  width: 600px;
+  border-collapse: collapse; 
+  margin: 10px auto;
+}
+
+.tableform td, .tableform th {
+  border-bottom: 1px solid #b4dfe5;
+  border-collapse:collapse;
+  padding:15px;
+}
+
+.tableform-header {
+  background-color: #a8d8e6;
+  color: navy;
+  text-align: center;
+  font-weight: bold;
+  padding: 8px;
+}
+
+input[type="text"], select, textarea {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  width: 70%;
+  background-color: #a8d8e6;
+  color: navy;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 1.125em;
+}
+
+input[type="submit"]:hover {
+  background-color: #379683;
+  color: white;
+}
+
+textarea {
+  resize: none;
+}
